@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Atma:wght@400&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Challenge T07 - Alura</title>
+    <script src="app.js" defer></script>
+</head>
+
+<body>
+    <header class="container-topo">
+        <nav>
+            <a href="#">Challenge T07 - Alura</a>            
+        </nav>
+    </header>
+
+    <main class="container-conteudo">        
+        <section class="container-conteudo__botoes">                        
+            <img src="./assets/alura_logo.png" alt="alura">
+            <h1>Decodificador de Texto</h1>
+            <button id="botaoCriptografar" class="botoes__estilo-do-botao">Criptografar</button>
+            <button id="botaoDescriptografar" class="botoes__estilo-do-botao-descriptografar">Descriptografar</button>
+            <button id="botaoCopiar" class="botoes__estilo-do-botao" disabled>Copiar</button>    
+        </section>
+
+        <section class="container-conteudo__eventos">           
+            <div class="eventos__coluna-de-entrada">
+                <label class="coluna-de-entrada__label-entrada-de-texto"for="textoDigitado">Digite ou cole o seu texto aqui:</label>
+                <textarea id="textoDigitado" placeholder="digite seu texto..."></textarea>
+                <p class="coluna-de-entrada__mensagem-atencao">Digite o texto com letras minúsculas e sem acentos!</p>
+            </div>
+            <div class="eventos__coluna-de-saida">
+                <div class="coluna-de-saida__processamento">
+                    <p id="atualizaMensagem" class="processamento__paragrafo-mensagem">Aguardando processamento...</p><br>
+                    <p id="textoProcessado" class="processamento__paragrafo-saida-texto"></p>
+                    <div id="avisos" class="processamento__avisos">
+                        <img src="./assets/person.svg" alt="Figura ilustrativa">
+                        <h3>Nenhuma mensagem encontrada</h3>
+                        <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+                    </div>
+                </div>                
+            </div>            
+        </section>  
+    </main>
+
+    <footer class="container-rodape">
+        <p>&copy; 2024 - </p> 
+        <a href="https://github.com/ncaracas">Nelson Caracas</a>
+    </footer>
+</body>
+</html>
