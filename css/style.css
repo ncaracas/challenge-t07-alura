@@ -223,8 +223,13 @@ button:disabled:hover {
 }
 
 @media screen and (max-width: 720px) { 
+    .container-topo {
+        width: 100%;
+        padding: 0.1rem 0rem 0.5rem 3.5rem;
+    }
+
     .container-conteudo {
-        max-width: 100%;                                 
+        width: 100%;                                         
     }
 
     .container-conteudo__botoes {
@@ -246,11 +251,12 @@ button:disabled:hover {
     .container-conteudo__eventos {
         flex-direction: column;
         margin: 0;                
-        width: 100%;        
+        width: 80%;
+        height: 100%;        
     }
 
     .eventos__coluna-de-entrada,
-    .eventos__coluna-de-saida {
+    .eventos__coluna-de-saida  {
         margin: 1%;
         width: 98%;
         height: 90%;
@@ -259,9 +265,9 @@ button:disabled:hover {
 
     .processamento__paragrafo-saida-texto {
         width: 100%;
-    }
+    }   
 
-    .container-rodape {        
+    .container-rodape {                
         padding: 1rem 0;
         font-size: 0.8rem;
     }
