@@ -222,7 +222,7 @@ button:disabled:hover {
     text-decoration: none;
 }
 
-@media screen and (max-width: 720px) { 
+@media (max-width: 480px) { 
     .container-topo {
         width: 100%;
         padding: 0.1rem 0rem 0.5rem 3.5rem;
@@ -251,15 +251,113 @@ button:disabled:hover {
     .container-conteudo__eventos {
         flex-direction: column;
         margin: 0;                
-        width: 80%;
-        height: 100%;        
+        width: 80%;                
     }
 
     .eventos__coluna-de-entrada,
-    .eventos__coluna-de-saida  {
+    .eventos__coluna-de-saida {
         margin: 1%;
-        width: 98%;
+        width: 88%;
         height: 90%;
+        gap: 1.5rem;        
+    }    
+
+    .processamento__paragrafo-saida-texto {
+        width: 100%;
+    }   
+
+    .container-rodape {                
+        padding: 1rem 0;
+        font-size: 0.8rem;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .container-topo {
+        width: 100%;
+        padding: 0.1rem 0rem 0.5rem 1rem;
+    }
+
+    .container-conteudo {
+        width: 100%;                                         
+    }
+
+    .container-conteudo__botoes {
+        width: 50%;
+        justify-content:first baseline;       
+        gap: 1rem;
+    }   
+
+    .botoes__estilo-do-botao {  
+        padding: 0.6rem 0.4rem;
+        width: 85%;
+    }
+
+    .botoes__estilo-do-botao-descriptografar {  
+        padding: 0.6rem 0.4rem;
+        width: 85%;
+    }
+
+    .container-conteudo__eventos {
+        flex-direction: column;
+        margin: 0;                
+        width: 80%;                        
+    }
+
+    .eventos__coluna-de-entrada,
+    .eventos__coluna-de-saida {
+        margin: 1%;
+        width: 95%;
+        height: 90%;
+        gap: 1.5rem;        
+    }    
+
+    .processamento__paragrafo-saida-texto {
+        width: 100%;
+    }   
+
+    .container-rodape {                
+        padding: 1rem 0;
+        font-size: 0.8rem;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .container-topo {
+        width: 100%;
+        padding: 0.1rem 0rem 0.5rem 1rem;
+    }
+
+    .container-conteudo {
+        width: 100%;                                         
+    }
+
+    .container-conteudo__botoes {
+        width: 18%;
+        justify-content:first baseline;       
+        gap: 1rem;
+    }   
+
+    .botoes__estilo-do-botao {  
+        padding: 0.6rem 0.4rem;
+        width: 85%;
+    }
+
+    .botoes__estilo-do-botao-descriptografar {  
+        padding: 0.6rem 0.4rem;
+        width: 85%;
+    }
+
+    .container-conteudo__eventos {        
+        margin-left: 5%;                
+        width: 70%;                        
+    }
+
+    .eventos__coluna-de-entrada,
+    .eventos__coluna-de-saida {
+        margin: 1%;
+        width: 90%;
+        height: 95%;
         gap: 1.5rem;        
     }    
 
