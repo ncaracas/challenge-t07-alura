@@ -18,7 +18,7 @@ body {
     background-color: var(--primary-color);    
 }
 
-.container-topo a {    
+.container-topo a {
     display: flex;
     justify-content: flex-end;  
     color: var(--tertiary-color);
@@ -41,7 +41,7 @@ body {
     background-color: var(--primary-color);    
 }
 
-.container-conteudo__botoes img { 
+.container-conteudo__botoes img {
     width: 13%;
     padding: auto;   
 }
@@ -223,9 +223,9 @@ button:disabled:hover {
 }
 
 @media (max-width: 480px) { 
-    .container-topo {
-        width: 100%;
-        padding: 0.1rem 0rem 0.5rem 3.5rem;
+    .container-topo a {
+        font-size: 0.9rem;
+        padding: 1.2rem 3rem 0.5rem 0rem;      
     }
 
     .container-conteudo {
@@ -236,9 +236,9 @@ button:disabled:hover {
         width: 50%;
         justify-content:first baseline;       
         gap: 1rem;
-    }   
+    }  
 
-    .botoes__estilo-do-botao {  
+    .botoes__estilo-do-botao { 
         padding: 0.6rem 0.4rem;
         width: 85%;
     }
@@ -255,27 +255,25 @@ button:disabled:hover {
     }
 
     .eventos__coluna-de-entrada,
-    .eventos__coluna-de-saida {
-        margin: 1%;
-        width: 94%;
-        height: 90%;
+    .eventos__coluna-de-saida {       
+        width: 94%;        
         gap: 1.5rem;        
-    }    
+    }  
 
     .processamento__paragrafo-saida-texto {
         width: 100%;
-    }   
+    } 
 
-    .container-rodape {                
+    .container-rodape {         
         padding: 1rem 0;
         font-size: 0.8rem;
     }
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
-    .container-topo {
-        width: 100%;
-        padding: 0.1rem 0rem 0.5rem 1rem;
+    .container-topo a {
+        font-size: 0.9rem;
+        padding: 1.2rem 5rem 0.5rem 0rem;
     }
 
     .container-conteudo {
@@ -286,14 +284,14 @@ button:disabled:hover {
         width: 50%;
         justify-content:first baseline;       
         gap: 1rem;
-    }   
+    }  
 
-    .botoes__estilo-do-botao {  
+    .botoes__estilo-do-botao { 
         padding: 0.6rem 0.4rem;
         width: 85%;
     }
 
-    .botoes__estilo-do-botao-descriptografar {  
+    .botoes__estilo-do-botao-descriptografar { 
         padding: 0.6rem 0.4rem;
         width: 85%;
     }
@@ -306,17 +304,15 @@ button:disabled:hover {
 
     .eventos__coluna-de-entrada,
     .eventos__coluna-de-saida {
-        margin: 1%;
-        width: 95%;
-        height: 85%;
+        width: 96%;
         gap: 1.5rem;        
-    }    
+    }   
 
     .processamento__paragrafo-saida-texto {
         width: 100%;
-    }   
+    }
 
-    .container-rodape {                
+    .container-rodape {               
         padding: 1rem 0;
         font-size: 0.8rem;
     }
@@ -324,8 +320,8 @@ button:disabled:hover {
 
 @media (min-width: 769px) and (max-width: 1024px) {
     .container-topo {
-        width: 100%;
-        padding: 0.1rem 0rem 0.5rem 1rem;
+        font-size: 0.9rem;
+        padding: 0.1rem 0rem 0.5rem 0rem;
     }
 
     .container-conteudo {
@@ -333,12 +329,12 @@ button:disabled:hover {
     }
 
     .container-conteudo__botoes {
-        width: 18%;
+        width: 20%;
         justify-content:first baseline;       
         gap: 1rem;
     }   
 
-    .botoes__estilo-do-botao {  
+    .botoes__estilo-do-botao { 
         padding: 0.6rem 0.4rem;
         width: 85%;
     }
@@ -348,22 +344,20 @@ button:disabled:hover {
         width: 85%;
     }
 
-    .container-conteudo__eventos {        
+    .container-conteudo__eventos {       
         margin-left: 5%;                
         width: 70%;                        
     }
 
     .eventos__coluna-de-entrada,
-    .eventos__coluna-de-saida {
-        margin: 1%;
-        width: 90%;
-        height: 95%;
+    .eventos__coluna-de-saida {    
+        width: 100%;    
         gap: 1.5rem;        
-    }    
+    }   
 
     .processamento__paragrafo-saida-texto {
         width: 100%;
-    }   
+    }  
 
     .container-rodape {                
         padding: 1rem 0;
