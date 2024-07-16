@@ -250,14 +250,14 @@ button:disabled:hover {
 
     .container-conteudo__eventos {
         flex-direction: column;
-        margin: 0;                
-        width: 80%;                
+        margin-left: 0.5rem;                
+        width: 75%;                
     }
 
     .eventos__coluna-de-entrada,
     .eventos__coluna-de-saida {
         margin: 1%;
-        width: 88%;
+        width: 94%;
         height: 90%;
         gap: 1.5rem;        
     }    
@@ -300,15 +300,15 @@ button:disabled:hover {
 
     .container-conteudo__eventos {
         flex-direction: column;
-        margin: 0;                
-        width: 80%;                        
+        margin-left: 0.5rem;                
+        width: 70%;                        
     }
 
     .eventos__coluna-de-entrada,
     .eventos__coluna-de-saida {
         margin: 1%;
         width: 95%;
-        height: 90%;
+        height: 85%;
         gap: 1.5rem;        
     }    
 
