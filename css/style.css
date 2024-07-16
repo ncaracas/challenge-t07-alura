@@ -318,7 +318,7 @@ button:disabled:hover {
     }
 }
 
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: 769px) and (max-width: 1200px) {
     .container-topo {
         font-size: 0.9rem;
         padding: 0.1rem 0rem 0.5rem 0rem;
