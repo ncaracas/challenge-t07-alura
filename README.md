@@ -14,6 +14,11 @@ O projeto 'Decodificador de Texto' é um desafio 'Challenge' proposto na fase in
 - Responsivo para telas menores;
 - Aplicação Web.
 
+## Deploy
+
+https://decodificador-alura-black.vercel.app
+
+
 ## Desenvolvedor
 
 - Desenvolvido em julho/2024 por: [Nelson Caracas](https://www.github.com/ncaracas)
