@@ -23,11 +23,10 @@ body {
     justify-content: flex-end;  
     color: var(--tertiary-color);
     text-decoration: none;    
-    padding: 1.2rem 10rem 0.5rem 0rem;        
+    padding: 1.2rem 10rem 1.5rem 0rem;        
 }
 
 .container-conteudo {
-    margin: 1% 0;
     display: flex;
     background-color: var(--secundary-color);    
 }
@@ -92,7 +91,7 @@ h1 {
 .container-conteudo__eventos {
     margin-left: 11%;
     display: flex;    
-    background-color: var(--secundary-color );
+    background-color: var(--secundary-color);
 }
 
 .eventos__coluna-de-entrada,
@@ -117,7 +116,6 @@ h1 {
 }
 
 textarea {
-    margin: 0;
     width: 90%;
     height: 90%;  
     padding: 0.8rem;
@@ -172,7 +170,7 @@ textarea::before {
 }
 
 .processamento__paragrafo-saida-texto {
-    width: 300px;
+    width: 90%;
     padding: 0.8rem;
     border: 1px solid var(--button-disabled);
     border-radius: 4px;
@@ -224,8 +222,10 @@ button:disabled:hover {
 
 @media (max-width: 480px) { 
     .container-topo a {
-        font-size: 0.9rem;
-        padding: 1.2rem 3rem 0.5rem 0rem;      
+        width: 100%;
+        justify-content: center;
+        font-size: 0.8rem;
+        padding: 1.0rem 0rem;
     }
 
     .container-conteudo {
@@ -258,11 +258,7 @@ button:disabled:hover {
     .eventos__coluna-de-saida {       
         width: 94%;        
         gap: 1.5rem;        
-    }  
-
-    .processamento__paragrafo-saida-texto {
-        width: 100%;
-    } 
+    }
 
     .container-rodape {         
         padding: 1rem 0;
@@ -272,8 +268,10 @@ button:disabled:hover {
 
 @media (min-width: 481px) and (max-width: 768px) {
     .container-topo a {
+        width: 100%;
+        justify-content: center;
         font-size: 0.9rem;
-        padding: 1.2rem 5rem 0.5rem 0rem;
+        padding: 1.0rem 0rem;
     }
 
     .container-conteudo {
@@ -308,24 +306,22 @@ button:disabled:hover {
         gap: 1.5rem;        
     }   
 
-    .processamento__paragrafo-saida-texto {
-        width: 100%;
-    }
-
     .container-rodape {               
         padding: 1rem 0;
         font-size: 0.8rem;
     }
 }
 
-@media (min-width: 769px) and (max-width: 1200px) {
-    .container-topo {
+@media (min-width: 769px) and (max-width: 1024px) {
+    .container-topo a {
+        width: 100%;
         font-size: 0.9rem;
-        padding: 0.1rem 0rem 0.5rem 0rem;
+        justify-content: center;
+        padding: 0.9rem 0rem;           
     }
 
     .container-conteudo {
-        width: 100%;                                         
+        width: 100%;                                           
     }
 
     .container-conteudo__botoes {
@@ -354,10 +350,6 @@ button:disabled:hover {
         width: 100%;    
         gap: 1.5rem;        
     }   
-
-    .processamento__paragrafo-saida-texto {
-        width: 100%;
-    }  
 
     .container-rodape {                
         padding: 1rem 0;
