@@ -9,14 +9,17 @@ O projeto 'Decodificador de Texto' é um desafio 'Challenge' proposto na fase in
 
 ## Funcionalidades
 
-- Criptografia e descriptografia de textos curtos;
-- Cópia para a área de tranferência;
-- Responsivo para telas menores;
-- Aplicação Web.
+- Criptografia e descriptografia de textos curtos
+- Cópia para a área de transferência
+- Responsivo para telas menores
+- Aplicação Web
 
-## Deploy
 
-https://decodificador-alura-black.vercel.app
+## Tecnologias
+
+- HTML
+- CSS
+- JavaScript
 
 
 ## Desenvolvedor
